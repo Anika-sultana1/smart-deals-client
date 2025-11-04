@@ -28,7 +28,8 @@ const router = createBrowserRouter([
       },
       {
         path: '/allProducts',
-        Component: AllProducts,
+        
+        element: <PrivateRoutes><AllProducts></AllProducts></PrivateRoutes>,
       },
       {
         path: '/myProducts',

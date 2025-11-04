@@ -109,7 +109,7 @@ setBids(remainingBids)
           <span className="badge badge-ghost badge-sm">Desktop Support Technician</span>
         </td>
         <td>{bid.bid_price}</td>
-        <td>{bid.status === 'pending' ?<div className="badge badge-warning">{bid.status}</div> : <div className="badge badge-success">{bid.status}</div>}</td>
+        <td>{bid.status === 'pending' ?<div className="badge badge-warning">{bid.status}</div> : <div className="badge badge-success">Success{bid.status}</div>}</td>
         <th>
           <button
           onClick={()=>handleDeleteBid(bid._id)} className="btn btn-outline btn-xs">Remove Bid</button>

@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default;
+}
+
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  --color-primary: #632EE3;
+  --color-secondary: teal;
+}
+.btn-primary{
+  @apply bg-gradient-to-r from-[#632EE3] to-[#9f62F2] border-none text-white;
+}
+.btn-primary:hover{
+  @apply opacity-90
+}
+.border-gradient {
+  border: 1px solid transparent ;
+  border-image: linear-gradient(to right, #632EE3, #9F62F2) 1;
+
+}
+.menu a.active{
+  text-decoration: underline;
+  color: blue;
+}
+.container {
+ 
+  background-image: url('../src/assets/bg-hero-left.png'), url('../src/assets/bg-hero-right.png'), linear-gradient(to right, #FFE6FD, #E0F8F5);
+  background-position: left center, right center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, contain;
+
+  
+}

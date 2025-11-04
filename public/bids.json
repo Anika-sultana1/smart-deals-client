@@ -1,0 +1,102 @@
+[
+{
+"_id": "bid1",
+"product": "product1",
+"buyer_image": "https://randomuser.me/api/portraits/women/1.jpg",
+"buyer_name": "Ayesha Rahman",
+"buyer_contact": "+8801712345678",
+"buyer_email": "ayesha@example.com",
+"bid_price": 550,
+"status": "pending"
+},
+{
+"_id": "bid2",
+"product": "product2",
+"buyer_image": "https://randomuser.me/api/portraits/men/2.jpg",
+"buyer_name": "Rafiq Ahmed",
+"buyer_contact": "+8801812345678",
+"buyer_email": "rafiq@example.com",
+"bid_price": 720,
+"status": "confirmed"
+},
+{
+"_id": "bid3",
+"product": "product1",
+"buyer_image": "https://randomuser.me/api/portraits/women/3.jpg",
+"buyer_name": "Sabina Akter",
+"buyer_contact": "+8801912345678",
+"buyer_email": "sabina@example.com",
+"bid_price": 600,
+"status": "pending"
+},
+{
+"_id": "bid4",
+"product": "product3",
+"buyer_image": "https://randomuser.me/api/portraits/men/4.jpg",
+"buyer_name": "Tanvir Hossain",
+"buyer_contact": "+8801719876543",
+"buyer_email": "tanvir@example.com",
+"bid_price": 450,
+"status": "confirmed"
+},
+{
+"_id": "bid5",
+"product": "product2",
+"buyer_image": "https://randomuser.me/api/portraits/women/5.jpg",
+"buyer_name": "Nadia Chowdhury",
+"buyer_contact": "+8801612345678",
+"buyer_email": "nadia@example.com",
+"bid_price": 750,
+"status": "pending"
+},
+{
+"_id": "bid6",
+"product": "product4",
+"buyer_image": "https://randomuser.me/api/portraits/men/6.jpg",
+"buyer_name": "Fahim Karim",
+"buyer_contact": "+8801918765432",
+"buyer_email": "fahim@example.com",
+"bid_price": 300,
+"status": "pending"
+},
+{
+"_id": "bid7",
+"product": "product1",
+"buyer_image": "https://randomuser.me/api/portraits/women/7.jpg",
+"buyer_name": "Rumana Sultana",
+"buyer_contact": "+8801712341111",
+"buyer_email": "rumana@example.com",
+"bid_price": 580,
+"status": "confirmed"
+},
+{
+"_id": "bid8",
+"product": "product3",
+"buyer_image": "https://randomuser.me/api/portraits/men/8.jpg",
+"buyer_name": "Sabbir Hossain",
+"buyer_contact": "+8801812349999",
+"buyer_email": "sabbir@example.com",
+"bid_price": 470,
+"status": "pending"
+},
+{
+"_id": "bid9",
+"product": "product4",
+"buyer_image": "https://randomuser.me/api/portraits/women/9.jpg",
+"buyer_name": "Lina Akhter",
+"buyer_contact": "+8801912348888",
+"buyer_email": "lina@example.com",
+"bid_price": 320,
+"status": "confirmed"
+},
+{
+"_id": "bid10",
+"product": "product2",
+"buyer_image": "https://randomuser.me/api/portraits/men/10.jpg",
+"buyer_name": "Arif Khan",
+"buyer_contact": "+8801712349999",
+"buyer_email": "arif@example.com",
+"bid_price": 770,
+"status": "pending"
+}
+]
